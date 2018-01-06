@@ -1,8 +1,6 @@
 body {
-    background-image: url("img/background-pic.jpeg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    background-image: url("img/black-image.jpg");
+    background-repeat: repeat;
 }
 
 #container {
