@@ -19,16 +19,22 @@ body {
     transform: translate(-50%, -50%);
     text-align: center;
     animation-name: fadeIn;
-    animation-duration: 3s;
+    animation-duration: 2s;
 }
 
-#container h4,
-#container h5 {
+#container h4 {
     padding-bottom: 20px;
 }
 
-#icon-container a {
-    padding-left: 20px;
-    padding-right: 20px;
+#icon-container i {
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: all .3s;
+}
+
+#icon-container i:hover {
+    font-size: 7.5em;
+    padding-top: 0;
 }
 
