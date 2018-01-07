@@ -27,14 +27,14 @@ body {
 }
 
 #icon-container i {
-    padding-top: 50px;
+    padding-top: .5em;
     padding-left: 10px;
     padding-right: 10px;
     transition: all .3s;
 }
 
 #icon-container i:hover {
-    font-size: 7.5em;
+    font-size: 7em;
     padding-top: 0;
 }
 
