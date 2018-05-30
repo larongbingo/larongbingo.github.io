@@ -1,39 +1,71 @@
-@keyframes fadeIn {
-    from {opacity: 0;}
-    to {opacity: 1;}
+@keyframes fromBottomToTop {
+    from {
+        padding-top: 30px;
+        opacity: 0;
+    }
+
+    to {
+        padding-top: 0px;
+        opacity: 1;
+    }
 }
 
 body {
-    background-color: black;
-    background-repeat: repeat;
+    font-family: 'Roboto', serif;
+    font-weight: bold;
+    background-image: url("./img/code-photo.jpg");
+    background-attachment: fixed;
+    padding-bottom: 20px;
+    margin: 0;
 }
 
-#container {
-    border-radius: 5px;
-    padding: 20px;
-    background-color: rgba(250, 250, 250, .90);
+p { 
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 100;
+}
+
+a { font-weight: 100; }
+
+#home {
+    background-image: url("./img/parallax.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(185, 167, 167);
+    min-height: 900px;
+    padding: 10px;
+}
+
+#header {
+    background-color: whitesmoke;
+    padding: 30px;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    animation-name: fadeIn;
-    animation-duration: 2s;
+    transform: translate(-50%, -55%);
 }
 
-#container h4 {
-    padding-bottom: 20px;
+#header-text { 
+    text-align: center; 
+    animation-name: fromBottomToTop;
+    animation-duration: 1s;
 }
 
-#icon-container i {
-    padding-top: .5em;
-    padding-left: 10px;
-    padding-right: 10px;
-    transition: all .3s;
+#header-img { 
+    width: 300px;
+    padding-bottom: 30px;
 }
 
-#icon-container i:hover {
-    font-size: 7em;
-    padding-top: 0;
+#container {
+    background-color: whitesmoke;
+    min-height: 2000px;
 }
 
+#about { padding-top: 120px; }
+
+#about-header { padding-bottom: 20px; }
+
+.padding {
+    padding-top: 20px;
+}
