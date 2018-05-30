@@ -22,6 +22,7 @@
     </div>
   </div>
 
+  <!-- Sticky Navbar -->
   <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -45,7 +46,7 @@
   </nav>
 
   <div class="container" id="container">
-    <div id="about">
+    <div id="about" class="border-bottom">
       <h3 id="about-header">About</h3>
       <div class="row">
         <div class="col">
@@ -194,11 +195,32 @@
       </div>
 
       <h4 class="padding">Hobbies</h4>
-      
+      <div>
+          <ul>
+            <li>Reading</li>
+            <li>Playing Games</li>
+          </ul>
+      </div>
     </div>
-    <div id="projects">
+
+    <div id="projects" class="border-bottom">
       <h3>Projects</h3>
+      <div class="row">
+        <div class="col">
+          <img src="./img/library-system.png" alt="Front Page of the library system" class="img-fluid rounded project-image">
+          <h5>Library System</h5>
+          <p>A project for my class, using NodeJS and ReactJS.</p>
+          <a href="https://github.com/larongbingo/LibrarySystem-FrontEnd"><i style="font-size: 2em" class="fa fa-github-square"></i> Github Repo</a>
+        </div>
+        <div class="col">
+          <img src="./img/library-system-back-end.png" alt="The graphiql interface of the server" class="img-fluid rounded project-image">
+          <h5>Library System - Back End</h5>
+          <p>The back end server of the library system</p>
+          <a href="https://github.com/larongbingo/LibrarySystem-BackEnd"><i style="font-size: 2em" class="fa fa-github-square"></i> Github Repo</a>
+        </div>
+      </div>
     </div>
+
     <div id="contacts">
       <h3>Contacts and Social Medias</h3>
     </div>

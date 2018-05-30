@@ -66,6 +66,18 @@ a { font-weight: 100; }
 
 #about-header { padding-bottom: 20px; }
 
+#projects {
+    padding-top: 120px;
+}
+
+.project-image {
+    width: 400px;
+}
+
+#contacts {
+    padding-top: 120px;
+}
+
 .padding {
     padding-top: 20px;
 }
