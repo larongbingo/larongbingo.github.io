@@ -26,6 +26,16 @@ p {
 
 a { font-weight: 100; }
 
+i {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
 #home {
     background-image: url("./img/parallax.jpg");
     background-attachment: fixed;
@@ -76,16 +86,6 @@ a { font-weight: 100; }
 
 #contacts-center {
     padding-bottom: 30px;
-}
-
-i {
-    display: inline-block;
-    vertical-align: middle;
-}
-
-span {
-    display: inline-block;
-    vertical-align: middle;
 }
 
 .project-image {
