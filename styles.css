@@ -74,9 +74,20 @@ a { font-weight: 100; }
     padding-top: 120px;
 }
 
-#contacts-center * {
-    padding-top: 10px;
+#contacts-center {
     padding-bottom: 30px;
+}
+
+
+
+i {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+span {
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .project-image {
