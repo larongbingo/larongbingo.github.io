@@ -70,12 +70,16 @@ a { font-weight: 100; }
     padding-top: 120px;
 }
 
-.project-image {
-    width: 400px;
-}
-
 #contacts {
     padding-top: 120px;
+}
+
+#contacts-center * {
+    padding-top: 10px;
+}
+
+.project-image {
+    width: 400px;
 }
 
 .padding {
