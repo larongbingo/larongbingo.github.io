@@ -76,6 +76,7 @@ a { font-weight: 100; }
 
 #contacts-center * {
     padding-top: 10px;
+    padding-bottom: 30px;
 }
 
 .project-image {
