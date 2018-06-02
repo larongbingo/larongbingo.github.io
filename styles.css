@@ -45,6 +45,7 @@ span {
     background-color: rgb(185, 167, 167);
     min-height: 900px;
     padding: 10px;
+    position: relative;
 }
 
 #header {
