@@ -73,17 +73,10 @@ span {
     min-height: 2000px;
 }
 
-#about { padding-top: 120px; }
-
 #about-header { padding-bottom: 20px; }
 
 #projects {
-    padding-top: 120px;
     padding-bottom: 30px;
-}
-
-#contacts {
-    padding-top: 120px;
 }
 
 #contacts-center {
@@ -91,6 +84,7 @@ span {
 }
 
 .section {
+    padding-top: 120px;
     padding-left: 10vw;
     padding-right: 10vw;
 }
