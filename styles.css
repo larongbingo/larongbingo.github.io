@@ -90,6 +90,11 @@ span {
     padding-bottom: 30px;
 }
 
+.section {
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
 .project-image {
     width: 400px;
 }
