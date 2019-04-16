@@ -57,6 +57,11 @@ span {
     transform: translate(-50%, -55%);
 }
 
+#contact-form {
+    margin: 0 auto;
+    width: 25vw;
+}
+
 #header-text { 
     text-align: center; 
     animation-name: fromBottomToTop;
