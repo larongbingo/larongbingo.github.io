@@ -24,6 +24,10 @@ span {
     vertical-align: middle;
 }
 
+li {
+    padding: 0 15px !important;
+}
+
 #home {
     background-image: url("./img/parallax.jpg");
     background-attachment: fixed;
@@ -72,6 +76,15 @@ span {
 
 #contacts-center {
     padding-bottom: 30px;
+}
+
+#contact-me {
+    padding-bottom: 30px;
+    margin: 0 auto;
+}
+
+#email, #title, #message {
+    width: 100%;
 }
 
 .section {
