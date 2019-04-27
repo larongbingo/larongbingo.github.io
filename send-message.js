@@ -27,5 +27,8 @@ sendButton.addEventListener("click", (e) => {
     method: "POST",
     body: JSON.stringify(message),
   }).then(res => res.json())
-  .then((val) => console.log(val));
+  .then((val) => {
+    if(val.error) { alert("Message not sent, please try again later"); }
+    else { alert("Message sent"); }
+  });
 });
