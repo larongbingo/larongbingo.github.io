@@ -74,6 +74,15 @@ span {
     padding-bottom: 30px;
 }
 
+#contact-me {
+    padding-bottom: 30px;
+    margin: 0 auto;
+}
+
+#email, #title, #message {
+    width: 100%;
+}
+
 .section {
     padding-top: 120px;
     padding-left: 10vw;
