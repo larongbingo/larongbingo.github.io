@@ -26,6 +26,9 @@ sendButton.addEventListener("click", (e) => {
   fetch(ENDPOINT, {
     method: "POST",
     body: JSON.stringify(message),
+    headers: {
+      "Content-Type": "application/json"
+    }
   }).then(res => res.json())
   .then((val) => {
     if(val.error) { alert("Message not sent, please try again later"); }
