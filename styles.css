@@ -24,6 +24,10 @@ span {
     vertical-align: middle;
 }
 
+li {
+    padding: 0 15px !important;
+}
+
 #home {
     background-image: url("./img/parallax.jpg");
     background-attachment: fixed;
