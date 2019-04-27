@@ -10,7 +10,7 @@ const sendButton = document.getElementById("send");
 // End Form Controls
 
 // Constants
-const ENDPOINT = "http://contacts-webdev-project-contacts.1d35.starter-us-east-1.openshiftapps.com/message";
+const ENDPOINT = "https://contacts-webdev-project-contacts.1d35.starter-us-east-1.openshiftapps.com/message";
 // End Constants
 
 sendButton.addEventListener("click", (e) => {
